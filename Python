@@ -1,0 +1,18 @@
+print("♥"*45)
+print("           renting movies programs      ")
+print("♥"*45)
+
+number = str(input("please insert your CitizenID :"))
+name = str(input("please input your name :"))
+movies = str(input("please insert the movie's name :"))
+days = int(input("please insert the days that's you'll be renting on :"))
+price = float(input("please insert the price :"))
+staff = str(input("staff name :"))
+
+total = days * price
+discount = "15%"
+total_amount = total - 0.15
+
+print(f"price it's: {total}")
+print(f"discount: {discount}")
+print(f"yours total is : {total_amount}")
