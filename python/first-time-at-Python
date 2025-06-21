@@ -1,0 +1,24 @@
+#knows how works
+print("Hello User")
+
+#Calculator
+num1 = 20
+num2 = 30
+print(num1 + num2)
+
+####str = #memory as a character or just text
+        #example        name = str(input("insert your name:"))
+####int = #memory as a digit number (can calculate)
+        #example        number = int(input("digit:"))
+####float = #memory as a math or dot stuff (can calculate [fully used as math])
+        #example        rate = float(input("rate like 2.40, 3.50:"))
+
+### how's list are worked  
+    ###it's that usualy likes the item are in our bag on specific things like:
+
+inventory = ["napkins", "books", "pencils", "eraser"]
+                #0-1       #1       #2          #3
+print(inventory)
+print(inventory[2])
+print(inventory[1:3])
+
